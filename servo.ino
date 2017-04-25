@@ -30,11 +30,11 @@ void setup() {
 void loop() {
   
    servo.attach(servoPin);
-   moveToLocation(95, 165, 1, 50); // From, To, Step Size, Stepdelay
+   moveToLocation(95, 160, 1, 50); // From, To, Step Size, Stepdelay
    servo.detach();
    delay(10000);
    servo.attach(servoPin);
-   moveToLocation(165, 95, 1, 50); // From, To, Step Size, Stepdelay
+   moveToLocation(160, 95, 1, 50); // From, To, Step Size, Stepdelay
    servo.detach();
    delay(10000);
 }
